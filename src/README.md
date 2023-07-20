@@ -11,4 +11,4 @@ The Movie-Planet utilizes the imdb API to fetch movie data abd information.
 3. JavaScript
 4. React
 
-I do hope to include the feature which enables a user add to favourites. Happy movie browsing!
+I would include the feature which enables a user add to favourites. Happy movie browsing!
