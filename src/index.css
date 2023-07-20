@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: cursive;
+  background-color: rgb(33, 36, 38);
+}
+.header-container {
+  background: linear-gradient(to right, rgb(33, 35, 38), rgb(33, 35, 38));
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-title {
+  background: linear-gradient(
+    90deg,
+    rgba(249, 211, 180, 1) 0%,
+    rgba(249, 211, 180, 0.2) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  margin: 0 auto;
+}
+.form-input {
+  height: 30px;
+  width: 70%;
+  padding: 5px;
+  border: 1px solid rgba(249, 211, 180, 0.8);
+  color: rgba(249, 211, 180, 0.8);
+  border-radius: 5px;
+  margin-right: auto;
+  background-color: rgb(20, 20, 20);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.form-input:focus {
+  outline: none;
+}
+.form-button {
+  height: 30px;
+  padding: 5px;
+  border: none;
+  background-color: rgba(249, 211, 180, 0.8);
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.5);
+}
+.movie-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.movie-card {
+  width: 280px;
+  border: 1px solid rgba(249, 211, 180, 0.6);
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: "Roboto Mono", monospace;
+  color: #f3e0d1;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.95s;
+}
+.movie-card:hover {
+  transform: scale(104%);
+}
+.movie-poster {
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.movie-title > h1 {
+  text-transform: uppercase;
+}
+.movie-details {
+  margin-left: 12px;
+}
+.sub {
+  font-size: 12px;
+  font-weight: 100;
+}
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9d3b4;
+  margin-top: 2rem;
+}
+.loading {
+  margin-top: 1.1rem;
+  color: #f9d3b4;
+}
